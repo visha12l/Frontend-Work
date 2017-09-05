@@ -1,0 +1,166 @@
+/*base styling for any page
+body
+{
+  background-color:White;
+  font-size:14px;
+  font-family:Arial,Sans-serif;
+  color:#666666;
+  line-height:1.7em;
+  text-align:left;
+}
+.container {
+    width:80%;
+    margin 0 auto;
+    overflow:auto;
+    clear:both;
+}
+.logo
+{
+  width:45%;
+  margin: 10px 0;
+
+}
+.content
+{
+  width:70%;
+  overflow:auto;
+  float:left;
+}
+.sidebar {
+  width:30%;
+  float:left;
+}
+*/
+/*
+body
+{
+  background-color:White;
+  font-size:14px;
+  font-family:Arial,Sans-serif;
+  color:#666666;
+  line-height:1.7em;
+  text-align:left;
+}
+a
+{
+  text-decoration:none;
+  color:yellow;
+}
+a:hover
+{
+  color:red;
+}
+h2
+{
+  color:aqua;
+}
+.container {
+    width:80%;
+    margin 0 auto;
+    overflow:auto;
+    clear:both;
+}
+.logo
+{
+  width:45%;
+  margin: 10px 0;
+transition:width 2s;
+display:block;
+}
+.main-nav
+{
+  background:#882433;
+  height:40px;
+  border-radius:5px;
+  border:1px solid red;
+}
+.main-nav ul
+{
+  list-style-type:none;
+  margin:0;
+  padding:0;
+}
+.main-nav li{
+  color:#fff;
+  display:inline;
+  float:left;
+  margin-right:3px;
+}
+.main-nav li a
+{
+  color:white;
+  display:inline-block;
+  padding:10px 20px;
+  height:20px;
+}
+.main-nav li a:hover
+{
+  background:#efeadd;
+  color:#666666;
+  border-radius:5px;
+}
+
+
+.content
+{
+  width:70%;
+  overflow:auto;
+  float:left;
+  transition:width 1s;
+}
+.art1,.art2
+{
+  border-radius:5px;
+  background:#ffffff;
+  overflow:auto;
+  padding:10px 20px;
+  margin-top:10px;
+}
+.span
+{
+  font-style:italic;
+  color:black;
+
+}
+.readmore
+{
+  display:block;
+  float:right;
+  background:#c13o46;
+  color:white;
+  border-radius:5px;
+  padding:5px 9px;
+}
+.readmore:hover
+{
+  background:black;
+
+}
+.sidebar {
+  width:30%;
+  float:left;
+}
+.block
+{
+  border-radius:5px;
+  background:#ffffff;
+  overflow:auto;
+  padding:10px 15px;
+  margin-top:10px 0 0 10px;
+}
+footer
+{
+
+  height:40px;
+  border:1px solid #C13046;
+  margin-top:10px;
+  border-radius:5px;
+}
+footer p
+{
+  color:red;
+  margin:0;
+  padding-top:10px ;
+  text-align:center;
+}
+*/

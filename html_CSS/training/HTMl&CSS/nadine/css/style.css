@@ -1,0 +1,334 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body {
+    font-family: Arial;
+}
+a {
+    text-decoration: none;
+}
+/* general styling*/
+
+.clear {
+    clear: both;
+}
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+/* Sub Header styling*/
+
+.subheader {
+    background-color: #3B3E46;
+    color: black;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.subheader ul li {
+    float: left;
+    margin-right: 60px;
+}
+i.location_icon {
+    background-image: url("../images/location.png");
+    display: inline-block;
+    margin-right: 30px;
+    width: 38px;
+    height: 42px;
+    float: left;
+}
+i.phone_icon {
+    background-image: url("../images/phone.png");
+    display: inline-block;
+    margin-right: 5px;
+    width: 26px;
+    height: 42px;
+    float: left;
+}
+.subheader span {
+    font-size: 13px;
+    line-height: 15px;
+    color: #fff;
+    float: left;
+    margin-top: 12.5px;
+    text-transform: uppercase;
+}
+.subheader ul li.clear {
+    float: none;
+    margin: 0;
+}
+/*  Header styling*/
+
+.header {
+    padding-top: 28px;
+    padding-bottom: 26px;
+}
+.header .logo {
+    float: left;
+}
+.header ul {
+    float: right;
+    margin-top: 14px;
+}
+.header ul li {
+    float: left;
+    margin-left: 25px;
+}
+.header ul li a {
+    color: #000;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+}
+.header ul li a:hover,
+.header ul li a.active {
+    color: #ff3333;
+}
+/* about us Wrapper */
+
+.wrapper {
+    background-image: url("../images/wrapper-bg.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding-top: 185px;
+    padding-bottom: 213px;
+}
+.wrapper h2 {
+    font-size: 72px;
+    line-height: 42.27px;
+    color: #fff;
+    font-weight: normal;
+    text-align: center;
+}
+.wrapper strong {
+    color: #ff3333;
+}
+.wrapper p {
+    text-align: center;
+    margin-top: 39px;
+    font-size: 26px;
+    line-height: 42px;
+    color: #fff;
+    padding-right: 100px;
+    padding-left: 86px;
+}
+button {
+    height: 64px;
+    width: 244px;
+    color: white;
+    background-color: #ff3333;
+    border: 1px solid #ff3333;
+    font-size: 14px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+/*feature wrapper styling*/
+
+.feature-wrapper {
+    margin-top: 113px;
+    margin-bottom: 110px;
+}
+.feature-wrapper h2 {
+    font-size: 36px;
+    line-height: 25px;
+    font-weight: normal;
+    color: #000;
+    padding-bottom: 44px;
+    text-align: center;
+    background-image: url("../images/border_image.png");
+    background-position: bottom center;
+    background-repeat: no-repeat;
+}
+.feature-wrapper ul {
+    margin-top: 58px;
+}
+.feature-wrapper ul li {
+    float: left;
+    width: 356px;
+    margin-left: 50px;
+}
+.feature-wrapper ul li.nomargin {
+    margin-left: 0;
+}
+.feature-wrapper ul li.clear {
+    clear: both;
+    float: none;
+    width: 0;
+    margin: 0;
+}
+.feature-wrapper h2 strong {
+    color: #ff3333;
+}
+.feature_image {
+    margin: 0 auto;
+    display: block;
+    width: 100px;
+    height: 100px;
+}
+.feature-wrapper h3 {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 25px;
+    color: #000;
+    text-align: center;
+    margin-top: 60px;
+}
+.feature-wrapper p {
+    margin-top: 30px;
+    font-size: 14px;
+    line-height: 25px;
+    color: #666;
+    text-align: center;
+}
+/*banner styling*/
+
+.banner {
+    padding-top: 157px;
+    padding-bottom: 187px;
+    background-image: url("../images/banner-bg.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.banner h2 {
+    font-size: 36px;
+    line-height: 25px;
+    color: #fff;
+    font-weight: normal;
+    text-align: center;
+}
+.banner strong {
+    color: #ff3333;
+}
+.textbox {
+    margin-top: 44px;
+}
+.textbox p {
+    font-size: 18px;
+    line-height: 32px;
+    color: #fff;
+    padding-left: 112px;
+    padding-right: 100px;
+    text-align: center;
+}
+.textbox p.paragraph {
+    margin-top: 15px;
+}
+/*client wrapper*/
+
+.clients h2 {
+    margin-top: 60px;
+    font-size: 36px;
+    line-height: 25px;
+    color: #000;
+    font-weight: normal;
+    text-align: center;
+}
+.clients strong {
+    color: #ff3333;
+}
+.clients ul {
+    margin-bottom: 100px;
+    margin-top: 52px;
+}
+.clients ul li {
+    margin-left: 50px;
+    float: left;
+    width: 255px;
+}
+.clients ul li.margin {
+    margin-left: 0;
+}
+.clients ul li.clear {
+    clear: both;
+    float: none;
+    width: 0;
+}
+.client-images {
+    height: 160px;
+    width: 240px;
+    margin: 0 auto;
+    display: block;
+}
+/*footer styling*/
+
+.footer {
+    COLOR: #FFF;
+    padding-top: 72px;
+    padding-bottom: 165px;
+    background-color: #2B2C31;
+}
+.footerheading {
+    font-size: 14px;
+    line-height: 25px;
+    border-bottom: 2px solid #2F3035;
+    padding-bottom: 17px;
+}
+.footer ul {
+    margin-top: 37px;
+}
+.footer ul li {
+    font-size: 14px;
+    line-height: 35px;
+}
+.company,
+.contact {
+    float: left;
+    width: 279px;
+}
+.contact {
+    margin-left: 100px;
+}
+.address {
+    padding-top: 13px;
+}
+/*copyright section*/
+
+.copyrights-wrapper {
+    padding-top: 44px;
+    padding-bottom: 30px;
+    background-color: #26272B;
+    color: #414348;
+}

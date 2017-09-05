@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Webonise2</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+.navbar
+{
+    margin-bottom: 0;
+    background-color:#222;/*complete navbar background*/
+    z-index: 9999;
+    border: 0;
+    font-size: 13px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    padding:0px 60px;
+}
+.navbar li a
+{
+    color: white !important;/*list items color*/
+}
+.navbar-nav li a:hover, .navbar-nav li.active a
+{
+    color: #fed136 !important;
+
+}
+.logo
+{
+  color:White;
+}
+.jumbotron
+{
+  background-image: url("bg-header-2.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+  background-size: cover;
+  padding:300px 200px;
+}
+.welcometext
+{
+  font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-style: italic;
+  font-size: 40px;
+  line-height: 40px;
+  color:white;
+}
+.head
+{
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 700;
+  font-size: 75px;
+  line-height: 75px;
+  color:white;
+}
+.btn-xl
+{
+    color: #fff;
+    background-color: #fed136;
+    border-color: #fed136;
+    border-radius: 3px;
+    font-size: 18px;
+    padding: 30px 40px;
+    font-weight: bold;
+}
+.btn-xl:hover
+{
+    color: #fff;
+    background-color: #fed136;
+    border-color: #fed136;
+    border-radius: 3px;
+    font-size: 18px;
+    padding: 30px 40px;
+    font-weight: bold;
+}
+.container
+{
+padding:100px 40px;
+}
+.glyphicon-shopping-cart,.glyphicon-blackboard,.glyphicon-cog
+{
+color:white;
+background-color: #fed136;
+padding:20px;
+font-size:150px;
+border-radius:50%;
+}
+.text-muted
+{
+  color:#777;
+
+}
+.subheading
+{
+
+  color:#777;
+  font-size:18px;
+}
+.portfolio,.services,.team
+{
+  background-color: #eee;
+}
+.teamimages
+{
+  height:200px;
+  width:200px;
+  margin-left: 68px;
+}
+.thumbnail
+{
+  background-color: white;
+}
+.thumbimages
+{
+  width:350px;
+  height:220px;
+}
+.row1
+{
+  height:300px;
+}
+.well
+{
+  background-color: white;
+}
+.icon
+{
+  width:50px;
+  height:50px;
+}
+.contact
+{
+  background-image: url("map.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+  background-size: cover;
+  background-color: #222;
+  color:white;
+  padding:100px 230px;
+}
+.pune
+{
+  height:206px;
+   width:576px;
+ }
+ .footer
+ {
+   background-color: #000;
+ }
+ h4{color:white;}
+ .footer ul li
+ {
+   color:#888;
+ }
+ .footer ul li a
+ {
+   color:#888;
+ }
+ .footericon
+ {
+   height:30px;
+   width: 30px;
+   padding:3px;
+ }
+</style>
+<body>
+  <nav class="navbar navbar-default navbar-custom navbar-fixed-top affix-top" >
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-left ">
+            <li><a class="navbar-brand " href="#">
+              <strong class="logo">Webonise Labs</strong>
+            </a></li>
+         </ul>
+       </div>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar1">
+        <ul class="nav navbar-nav navbar-right ">
+          <li><a href="#services" class="active">SERVICES</a></li>
+          <li><a href="#portfolio">PORTFOLIO</a></li>
+          <li ><a href="#team">TEAM</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav><!--End of navigation bar-->
+<div class="jumbotron text-center">
+<h2 class="welcometext">  Welcome To Our Studio!</h2>
+<h1 class="head" style="color:white;"> IT'S NICE TO MEET YOU </h1><br>
+  <button class="btn btn-default btn-xl">TELL ME MORE</button>
+</div>
+<div class="container text-center  services" id="services">
+  <h2><b>SERVICES</b></h2>
+<p class=" subheading">Lorem ipsum dolor sit amet consectetur.<p>
+  <div class="row">
+    <div class="col-md-4">
+      <span class="glyphicon glyphicon-shopping-cart"></span>
+      <h3>E-Commerce</h3>
+     <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+    </div>
+    <div class="col-md-4">
+        <span class="glyphicon glyphicon-blackboard"></span>
+      <h3>Responsive Design</h3>
+<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+    </div>
+    <div class="col-md-4">
+      <span class="glyphicon glyphicon-cog"></span>
+      <h3>Web Security</h3>
+<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+    </div>
+  </div>
+</div>
+<div class="container text-center portfolio" id="portfolio">
+  <h2><b>PORTFOLIO</b></h2>
+<p class="subheading">Lorem ipsum dolor sit amet consectetur.<p><br>
+  <div class="row">
+    <div class="col-md-4 thumbnail">
+        <img src="header-bg.jpg" alt="Pulpit Rock"  class="img-responsive thumbimages"/>
+        <h3>Round Icons</h3>
+  <p class="text-muted">Graphic Design</p>
+    </div>
+    <div class="col-md-4 thumbnail">
+        <img src="header-bg.jpg" alt="Pulpit Rock" class="img-responsive thumbimages"/>
+        <h3>Startup Framework</h3>
+        <p class="text-muted">Website Design</p>
+          </div>
+    <div class="col-md-4 thumbnail">
+        <img src="header-bg.jpg" alt="Pulpit Rock" class="img-responsive thumbimages"/>
+        <h3>Treehouse</h3>
+        <p class="text-muted">Website Design</p>
+        </div>
+  </div><br>
+  <div class="row">
+    <div class="col-md-4 thumbnail">
+        <img src="header-bg.jpg" alt="Pulpit Rock" class="img-responsive thumbimages"/>
+        <h3>Golden</h3>
+        <p class="text-muted">Website Design</p>
+    </div>
+    <div class="col-md-4 thumbnail">
+        <img src="header-bg.jpg" alt="Pulpit Rock" class="img-responsive thumbimages"/>
+       <h3>Escape</h3>
+       <p class="text-muted">Website Design</p>
+    </div>
+    <div class="col-md-4 thumbnail">
+        <img src="header-bg.jpg" alt="Pulpit Rock" class="img-responsive thumbimages"/>
+        <h3>Dreams</h3>
+        <p class="text-muted">Website Design</p>
+      </div>
+  </div>
+</div><!--End of PortFolio Container-->
+<div class="container  team text-center" id="team">
+  <h2><b>OUR AMAZING TEAM</b></h2>
+  <p class="subheading">Lorem ipsum dolor sit amet consectetur.</p><br>
+  <div class="row row1 text-center">
+    <div class="col-md-4 ">
+      <img  src="vishal.jpg" alt="vishal shinde" class="img-responsive teamimages img-circle "/>
+        <h3>Vishal</h3>
+        <p class="subheading">Lead Designer</p>
+        <ul class="list-inline list-unstyled">
+          <li><a><img src="facebook.png" alt="image" class="icon"/></a></li>
+          <li><a><img src="twitter.png" alt="image" class="icon"/></a></li>
+          <li><a><img src="linkedin.png" alt="image" class="icon"/></a></li>
+        </ul>
+    </div>
+    <div class="col-md-4  ">
+      <img src="parth.jpg" alt="parth Shah" class="img-responsive teamimages img-circle"/>
+      <h3>Parth</h3>
+      <p class="subheading">Lead Developer</p>
+      <ul class="list-inline list-unstyled">
+        <li><a><img src="facebook.png" alt="image" class="icon"/></a></li>
+        <li><a><img src="twitter.png" alt="image" class="icon"/></a></li>
+        <li><a><img src="linkedin.png" alt="image" class="icon"/></a></li>
+      </ul>
+    </div>
+    <div class="col-md-4 ">
+      <img src="ankit.jpg" alt="Ankit Rao" class="img-responsive teamimages img-circle"/>
+      <h3>Ankit</h3>
+      <p class="subheading">Lead Marketer</p>
+      <ul class="list-inline list-unstyled">
+        <li><a><img src="facebook.png" alt="image" class="icon"/></a></li>
+        <li><a><img src="twitter.png" alt="image" class="icon"/></a></li>
+        <li><a><img src="linkedin.png" alt="image" class="icon"/></a></li>
+      </ul>
+    </div>
+  </div>
+</div><!--End of Team Container-->
+<div class="container-fluid text-center contact" id="contact" >
+  <h2><b>CONTACT US</b></h2>
+  <p class="subheading">Lorem ipsum dolor sit amet consectetur.</p><br>
+<div class="row">
+  <div class="col-md-6">
+    <form class="form-horizontal" >
+      <div class="form-group">
+        <div class="col-sm-10 ">
+          <input type="text" class="form-control input-lg"  placeholder="Your Name">
+        </div>
+      </div>
+        <div class="form-group">
+          <div class="col-sm-10">
+            <input type="email" class="form-control input-lg" placeholder="Your email">
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="col-sm-10">
+            <input type="text" class="form-control input-lg"  placeholder="Your Number">
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="col-sm-10">
+              <textarea class="form-control input-lg" rows="5"  placeholder="Your Message"></textarea>
+            </div>
+          </div>
+      </form>
+  </div><!--end of column 1-->
+  <div class="col-md-6 " >
+    <img src="pune.jpg" alt="image" class="img-responsive pune" />
+    <h4>pune,india</h4>
+        <p>3rd Floor, GaloreTech IT Park,</p><p>Bavdhan, Pune 411 021</p>
+        <p>+91 20-6685-9500</p>
+  </div><!--end of column 2-->
+</div><!--End of row-->
+<button class="btn btn-default btn-xl">SEND MESSAGE</button>
+</div><!--End of contactus Container-->
+
+  <div class="container-fluid  footer">
+    <div class="row">
+      <div class="col-md-2 col-md-offset-2" >
+        <h4>product</h4>
+      <ul class="list-unstyled">
+          <li>Download</li>
+          <li>Features</li>
+          <li>Mobile</li>
+          <li>Compare</li>
+          <li>Plans & Pricing</li>
+          <li>App Showcase</li>
+          <li>Business/Teams</li>
+      </ul>
+      </div>
+      <div class="col-md-2" >
+        <h4>company</h4>
+        <ul class="list-unstyled">
+          <li>About</li>
+          <li>Contact</li>
+          <li>Blog</li>
+          <li>News</li>
+          <li>Press Releases</li>
+        </ul>
+
+      </div>
+      <div class="col-md-3" >
+
+        <h4>support</h4>
+        <ul class="list-unstyled">
+          <li>Help Center</li>
+          <li>Getting Started</li>
+          <li>Referral Program</li>
+          <li>Shared Folder Plan FAQ</li>
+        </ul>
+    </div>
+    <div class=" col-md-3  ">
+                <h4>Connect With Us</h4>
+                <ul class="list-unstyled ">
+                    <li class="facebook"><a href="#" ><img src="facebook-f.png" alt="image" class="footericon"/>Facebook</a></li>
+                    <li class="twitter"><a href="#" ><img src="twitter-f.png" alt="image" class="footericon"/>Twitter</a></li>
+                    <li class="youtube"><a href="#"><img src="youtube-f.png" alt="image" class="footericon"/>YouTube</a></li>
+                    <li class="linkedin"><a href="#" ><img src="linkedin-f.jpg" alt="image" class="footericon"/>LinkedIn</a></li>
+                </ul>
+            </div>
+</div><!--End of Footer row-->
+</div><!--End of Footer Container-->
+
+</body>

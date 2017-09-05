@@ -1,0 +1,225 @@
+.navbar
+{
+    margin-bottom: 0;
+    background-color:#232b42;/*complete navbar background*/
+    z-index: 9999;
+    border: 0;
+    font-size: 15px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    padding:10px 70px;
+
+}
+.navbar li a
+{
+    color: white !important;/*list items color*/
+}
+
+.navbar-brand {
+    float: left;
+    height: 100%;
+
+    font-size: 18px;
+    line-height: 20px;
+
+}
+
+.logo
+{
+
+ color: #00a8ff;
+}
+.btn-info
+{
+  background-color: #00a8ff;
+  border:2px solid transparent;
+  color:#fff;
+}
+.jumbotron
+{
+  background-image: url("img/header.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+  background-size: cover;
+  padding:300px 200px;
+}
+.welcometext
+{
+  font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-style: italic;
+  font-size: 40px;
+  line-height: 40px;
+  color:white;
+}
+.head
+{
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 700;
+  font-size: 75px;
+  line-height: 75px;
+  color:white;
+}
+.btn-xl
+{
+    color: #fff;
+    background-color: #fed136;
+    border-color: #fed136;
+    border-radius: 3px;
+    font-size: 18px;
+    padding: 30px 40px;
+    font-weight: bold;
+}
+.btn-xl:hover
+{
+    color: #fff;
+    background-color: #fed136;
+    border-color: #fed136;
+    border-radius: 3px;
+    font-size: 18px;
+    padding: 30px 40px;
+    font-weight: bold;
+}
+
+
+ h1, h2, h3, h4, h5, h6 {
+     font-family: 'Roboto', 'Avenir Next', 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif;
+ }
+ .col1,.col2,.col3
+ {
+
+   height:300px;
+
+   color:white;
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: cover;
+   position:relative;
+
+
+
+ }
+ .col1
+ {
+   background-image: url("img/table-1.jpg");
+  }
+ .col2
+ {
+   background-image: url("img/table-2.jpg");
+}
+ .col2:hover
+ {
+   background-image: url("img/table-2-hover.jpg");
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: cover;
+
+ }
+ .col3
+ {
+   background-image: url("img/table-3.jpg");
+ }
+ .table
+ {
+ font-size: 16px;
+   }
+   .services1,.services2,.services3
+   {
+     width:380px;
+     height:340px;
+     position: relative;
+     min-height: 1px;
+     border: 1px solid #ddd;
+     margin:5px;
+     padding: 60px 40px;
+   }
+    .services1:hover,.services2:hover,.services3:hover
+    {
+      border: 1px solid #ddd;
+
+    }
+   .servicesheading
+   {
+     font-size: 48px;
+   }
+   p
+   {
+  font-size:18px;
+  color: #8a8e91;
+   }
+   .heading
+   {
+     font-size: 26px;
+     line-height: 1.1;
+      color: #333333;
+ }
+   .muted {
+     color: #989da0;
+     font-size: 24px;
+ }
+ .light {
+     font-weight: 300;
+ }
+.container
+{
+  padding-top:200px ;
+}/*review this*/
+.team1,.team2,.team3
+{
+  width:360px;
+  height:584px;
+  position: relative;
+  border: 1px solid #ddd;
+  margin:80px 10px;
+  padding-botto: 60px ;
+}
+
+.avatar {
+    position: relative;
+    z-index: 2;
+    margin-top: -60px;
+    border-radius: 50%;
+}
+.teamcover1,.teamcover2,.teamcover3
+{
+  height:250px;
+  background-size: cover;
+  background-position: center center;
+   background-repeat: no-repeat;
+}
+.teamcover1
+{
+  background-image: url('img/team/team-cover1.jpg');
+}
+.teamcover2
+{
+  background-image: url('img/team/team-cover2.jpg');
+}
+.teamcover3
+{
+  background-image: url('img/team/team-cover3.jpg');
+}
+.footer {
+    background: url('img/footer.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding-top: 10px ;
+    padding-bottom: 10px ;
+
+    padding-left:200px;
+  }
+.white
+{
+  color:white;
+}
+.babyblue
+{
+  color:#999;
+}
+.footerimages
+{
+  height:30px;
+  width:30px;
+}

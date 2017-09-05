@@ -1,0 +1,11 @@
+
+importing breadcrumbs  :: from appconstants (PROOF-1482)
+importing function ::from dashboardutils(PROF-1482)
+increment functionality proof-1482 (function name is updateInputField)
+implementation of  horizontal three dots menu (PROOF-1537)
+javascript tooltip ofor long name (PROOF-1537)
+adding popup and removing the popup using setparentstate and setcomponentstate (PROOF-1581)
+adding simple popup with dyanamic text (PROOF-1590 PR NO ::945 )
+adding popup one after the another with react (PROOF-1631 PR no:972)
+adding two tabs at single screen with react (PROOF-1626 PR no:974)
+comparing two arrays with _.isEqual method (PROOF-1682 PR no ::992)

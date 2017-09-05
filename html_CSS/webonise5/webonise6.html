@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Webonise6</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="main.css">
+<style>
+</style>
+<body>
+  <nav class="navbar navbar-default navbar-custom navbar-fixed-top affix-top" >
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+            <a class="navbar-brand logo" href="#">
+            <img src="img/logo.png" />
+            </a>
+          </div>
+      <div class="collapse navbar-collapse " id="myNavbar1">
+        <ul class="nav navbar-nav navbar-right ">
+          <li><a href="#Home" class="active">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li ><a href="#team">Team</a></li>
+          <li><a href="#Pricing">Pricing</a></li>
+          <li><a href="#" data-toggle="modal" data-target="#modal1" class="btn btn-info">Sign Up</a></li>
+          </ul>
+      </div>
+    </div>
+  </nav><!--End of navigation bar-->
+  <div id="modal1" class="modal fade" role="dialog" style="margin-top:300px;">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title text-center" style="color:red;">Sign Up Form</h4>
+      </div>
+      <div class="modal-body">
+
+        <form class="form-inline" role="form">
+            <div class="row">
+          <div class="form-group">
+              <label for="Name">Email address:</label>
+                <input type="text" class="form-control" id="Name">
+              </div>
+
+            <div class="form-group">
+                <label for="email">Email address:</label>
+                  <input type="email" class="form-control" id="email">
+                </div>
+            <div class="form-group">
+                <label  for="pwd">Password:</label>
+                <input type="password" class="form-control" id="pwd">
+            </div>
+            <div class="form-group">
+              <label  >Membership Type</label>
+
+            <div class="radio">
+              <label><input type="radio" name="optradio">Monthly</label>
+            </div>
+            <div class="radio">
+              <label><input type="radio" name="optradio">6 Months</label>
+            </div>
+            <div class="radio ">
+              <label><input type="radio" name="optradio" >1 Year</label>
+            </div>
+          </div>
+          </div>
+</form>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+<div class="jumbotron text-center">
+<h2 class="welcometext">  Take care of your body.</h2>
+<h1 class="head" style="color:white;">It's the only place you have to live.</h1><br>
+  </div><!--end of jumbotron-->
+  <div class="container" id="home">
+    <div class="row ">
+      <div class="col-md-4 col1">
+        <div style="height:100px;">  <h3><b >Today's Schedule</b></h3></div>
+
+        <table class="table">
+              <tr>
+                <td>1) Early Exercise</td>
+                <td>8:30 - 10:00</td>
+
+              </tr>
+              <tr>
+                <td>2) Muscle Building</td>
+                <td>10:30 - 12:00</td>
+                </tr>
+              <tr>
+                <td>3) Cardio</td>
+                <td>12:30 - 02:00</td>
+                </tr>
+          </table>
+    </div>
+        <div class="col-md-4 col2">
+            <div style="height:150px;"><h3>premium membership</h3>
+          </div>  <h2>Register Today</h2>
+            <div><h2>20% Discount</h2>
+        </div></div>
+          <div class="col-md-4 col3">
+            <div style="height:100px;"><h3>Happy Clients</h3></div>
+  <div style="height:100px;">
+    <h2>I couldn't be more happy with the results!</h2>
+  </div>
+  <div style="height:100px;"><h5>Adam Jordan</h5>
+  </div>
+          </div>
+
+  </div>
+  </div><!--end of container-->
+  <div class="container text-center" id="services">
+    <h2 class="servicesheading">Services</h2>
+  <h4 class="light muted">Achieve the best results with our wide variety of training options!</h4><br>
+    <div class="row">
+      <div class="col-md-4 services1 ">
+        <img src="img/icons/heart-blue.png" alt="" class="icon">
+       <h4 class="heading">  cardio training</h3>
+
+       <p>A elementum ligula lacus ac quam ultrices a scelerisque praesent vel suspendisse scelerisque a aenean hac montes.</p>
+      </div>
+      <div class="col-md-4 services2">
+  <img src="img/icons/guru-blue.png" alt="" class="icon">
+        <h4 class="heading">yoga pilates</h4>
+
+        <p>A elementum ligula lacus ac quam ultrices a scelerisque praesent vel suspendisse scelerisque a aenean hac montes.</p>
+      </div>
+      <div class="col-md-4 services3">
+  <img src="img/icons/weight-blue.png" alt="" class="icon">
+        <h4 class="heading">power training</h4>
+        <p>A elementum ligula lacus ac quam ultrices a scelerisque praesent vel suspendisse scelerisque a aenean hac montes.</p>
+      </div>
+    </div>
+  </div><!--end of services container-->
+  <div class="container text-center"><!--team container-->
+    <h2 class="servicesheading">Team</h2>
+  <h4 class="light muted">We are a dream team!</h4><br>
+    <div class="row">
+      <div class="col-md-4 team1 ">
+        <div class="teamcover1">
+        </div>
+      <div>
+        <img src="img/team/team3.jpg" class="avatar"/>
+       <h4 class="heading">  Ben Adamson</h3>
+        <p>Fitness Instructor</p><br>
+        <a href="#" data-toggle="modal" data-target="#modal1" class="btn btn-info btn-lg">Sign Up</a>
+      </div>
+      </div>
+      <div class="col-md-4 team2">
+        <div class="teamcover2">
+
+        </div>
+
+        <div>
+          <img src="img/team/team1.jpg" class="avatar"/>
+        <h4 class="heading">Eva Williams</h4>
+<p>Personal Trainer</p></div><br>
+  <a href="#" data-toggle="modal" data-target="#modal1" class="btn btn-info btn-lg">Sign Up</a>
+
+      </div>
+      <div class="col-md-4 team3">
+        <div class="teamcover3">
+        </div>
+
+          <div>
+            <img src="img/team/team2.jpg" class="avatar"/>
+            <h4 class="heading">John Phillips</h4>
+            <p>Personal Trainer</p><br>
+              <a href="#" data-toggle="modal" data-target="#modal1" class="btn btn-info btn-lg">Sign Up</a>
+          </div>
+    </div>
+  </div><!--End of row-->
+</div><!--end of container-->
+<div class=" footer">
+    <div class="row ">
+      <div class="col-md-6 " >
+          <h3 class="white">Reserve a Free Trial Class!</h3>
+          <h4 class="babyblue">Shape your body and improve your health.</h4><br><br>
+          <a href="#" data-toggle="modal" data-target="#modal1" class="btn btn-info btn-lg">Start Free Trial</a>
+      </div>
+
+      <div class="col-md-6">
+          <h3 class="white">Opening Hours</h3><br><br>
+              <div class="row">
+                <div class="col-md-6">
+                  <h4 class="babyblue">Mon-Fri</h4>
+                  <h3 class="white">9:00-22:00</h3>
+                </div>
+
+                <div class="col-md-6">
+                    <h4 class="babyblue">Sat-Sun</h4>
+                    <h3 class="white">10:00-18:00</h3>
+                </div>
+              </div>
+      </div>
+
+    </div><!--End of Footer row-->
+    <div class="row"  style="padding-top:150px;">
+      <div class="col-md-6">
+        <h4 class="babyblue"> © 2016 All Rights Reserved.</h4>
+      </div>
+        <div class="col-md-6">
+          <div class="row">
+            <div class="col-md-6 col-md-offset-6">
+
+          <ul class="list-inline">
+              <li><a href="#"><img src="img/facebook.png" class="footerimages"/></a></li>
+              <li><a href="#"><img src="img/twitter.png" class="footerimages"/></a></li>
+              <li><a href="#"><img src="img/linkedin.png"class="footerimages"/></a></li>
+
+            </ul>
+        </div></div></div>
+    </div>
+</div><!--End of Footer Container-->
+</body>

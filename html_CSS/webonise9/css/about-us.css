@@ -1,0 +1,91 @@
+
+.progress-bar {
+    -webkit-transition: none !important;
+    transition: none !important;
+    background-color:#219e24;
+}
+.containerstats
+{
+  width:1200px;
+  margin-top:0px;
+  color:#000;
+  background-color: #eee;
+  padding:60px 40px !important;
+
+}
+
+.containerservices
+{
+  background-image:url(../images/bgTop.jpg);
+  background-size:cover;
+  background-position:center center;
+  width:1200px;
+  margin-top:66px;
+  color:white;
+  padding:60px 40px !important;
+
+}
+.glyphicon-shopping-cart,.glyphicon-blackboard,.glyphicon-cog
+{
+  padding: 26px;
+  font-size: 80px;
+  color: #fffff7;
+
+}
+.containerteam
+{
+  background:#eee;
+  width:1200px;
+  color:#000;
+  padding:30px 20px !important;
+
+}
+.colcontent
+{
+  padding-top: 0px  !important;
+  padding-bottom:30px !important;
+}
+.containerreview
+{
+  background:#eee;
+  width:1200px;
+  color:#000;
+  padding:30px 20px !important;
+
+}
+
+ .containerteam h4,.containerservices h4,.containerstats h4,.containerreview h4
+ {
+   font-size:20px;
+   font-weight:300;
+ }
+  .col1review,.col3review
+ {
+   border-right:1px solid #ddd;
+ }
+ .col1review,.col2review
+{
+
+  padding-bottom: 35px;
+}
+ .col3review,.col4review
+ {
+   border-top:1px solid #ddd;
+   padding-top:35px;
+ }
+
+ .containerteam p,.containerservices p,.containerstats p,.containerreview p
+{
+
+    font-size: 13px;
+    font-weight: 300;
+    margin-top: 12px;
+    line-height: 23px;
+}
+/*footer styling*/
+
+
+* {
+    margin: 0;
+    padding: 0
+}

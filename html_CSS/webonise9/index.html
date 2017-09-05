@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Resproject</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/header.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="shortcut icon" href="images/logo.ico">
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script>
+        var showwidth = 1; /*toggle for width dispaly*/
+        if (showwidth == 1) {
+            $(document).ready(function() {
+                $(window).resize(function() {
+                    var width = $(window).width();
+                    document.getElementById('output_width').innerHTML = "Window Width:" + width.toString();
+                });
+            });
+        }
+    </script>
+</head>
+
+<body>
+<!--  <div class="progress">
+  <div class="progress-bar" role="progressbar" >
+    <span class="sr-only">70% Complete</span>
+  </div>
+  </div>
+  <script>
+  $(".progress-bar").animate({
+      width: "100%"
+  }, 2500);</script>
+--><nav class="navbar navbar-default navbar-fixed-top">
+
+
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><img src="images/logo.png" class="img-responsive logo" alt="logo" />
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-left text-uppercase">
+                    <li><a href="index.html">Home </a>
+                    </li>
+                    <li><a href="about-us.html">About</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="innovate.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Innovate <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="innovate.html">Learn </a>
+                            </li>
+                            <li><a href="innovate.html">Create</a>
+                            </li>
+                            <li><a href="innovate.html">Teach</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="blog.html">Blog</a>
+                    </li>
+                    <li><a href="contact.html">Contact</a>
+                    </li>
+
+
+                </ul>
+
+                <ul class="nav navbar-nav navbar-right">
+                    <div class="navbar-form navbar-left">
+
+                        <input type="text" class="form-control " placeholder="Search">
+                        <button type="submit" class="btn btn-warning">Submit</button>
+                        <button type="submit" class="btn btn-info" onclick="document.getElementById('id01').style.display='block'">Log in</button>
+                        <button type="submit" class="btn btn-success" onclick="document.getElementById('id02').style.display='block'">Register</button>
+
+                    </div>
+
+
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <div class="jumbotron ">
+        <div class="container no-padding">
+            <div class="row">
+                <div class="col-md-7 col-md-offset-5">
+                    <div class="jumbotron-content text-center">
+                        <h1>Clean & Clear HTML5 Template</h1>
+                        <p class="lead">It Is responsive Html Template </p>
+                        <p class="lead">It Is responsive Html Template</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End of jumbotron-->
+    <div class="container maincontainer">
+        <div class="row mainbox">
+            <div class="col-md-4">
+                <div class="bluebox">
+                    <h3><span class="glyphicon glyphicon-book"></span> Learn...</h3>
+                    <p>Turn any fixed-width grid layout into a full-width layout by changing your outermost</p>
+                    <a href="#" class="readmore">Read More</a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="redbox">
+                    <h3><span class="glyphicon glyphicon-eye-open"></span> Teach...</h3>
+                    <p>Turn any fixed-width grid layout into a full-width layout by changing your outermost</p>
+                    <a href="#" class="readmore">Read More</a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="greenbox">
+                    <h3><span class="glyphicon glyphicon-road"></span> Create...</h3>
+                    <p>Turn any fixed-width grid layout into a full-width layout by changing your outermost</p>
+                    <a href="#" class="readmore">Read More</a>
+                </div>
+            </div>
+
+        </div>
+        <div class="row pad-top-30">
+            <div class="col-md-8 ">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title text-center"><b style="font-size:20px;">Whats happening in the world</b></h3>
+                    </div>
+                    <div class="panel-body">
+                        <div class="media">
+                            <div class="media-left">
+                                <a href="#">
+                                    <img class="media-object img-circle" src="images/logo.png" alt="media image">
+                                </a>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading ">Media heading</h4>
+                                <p>Turn any fixed-width grid layout into a full-width layout by changing your outermost</p>
+                            </div>
+                        </div>
+                        <div class="media">
+                            <div class="media-left">
+                                <a href="#">
+                                    <img class="media-object img-circle" src="images/logo.png" alt="media image">
+                                </a>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Media heading</h4>
+                                <p>Turn any fixed-width grid layout into a full-width layout by changing your outermost</p>
+                            </div>
+                        </div>
+                        <div class="media">
+                            <div class="media-left">
+                                <a href="#">
+                                    <img class="media-object img-circle" src="images/logo.png" alt="media image">
+                                </a>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Media heading</h4>
+                                <p>Turn any fixed-width grid layout into a full-width layout by changing your outermost</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="well">
+                    <h2 class="text-center">Contact us</h2>
+                    <br>
+                    <form class="form-horizontal">
+                        <div class="form-group">
+                            <label for="inputEmail3" class="col-sm-2 control-label">Name</label>
+                            <div class="col-sm-10">
+                                <input type="email" class="form-control" id="inputEmail3" placeholder="Name">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+                            <div class="col-sm-10">
+                                <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputEmail3" class="col-sm-2 control-label">Message</label>
+                            <div class="col-sm-10">
+                                <textarea class="form-control" rows="3" placeholder="enter your query"></textarea>
+                            </div>
+                        </div>
+
+
+                        <div class="form-group">
+                            <div class="col-sm-offset-2 col-sm-10">
+
+                                <button type="button" class="btn btn-info" onclick="document.getElementById('id03').style.display='block'" >Send</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+            <!--sidebar-->
+            <div class="col-md-4">
+                <div class="list-group text-uppercase">
+                    <a href="index.html" class="list-group-item active">
+            Home
+          </a>
+
+                    <a href="about-us.html" class="list-group-item">About</a>
+                    <a href="innovate.html" class="list-group-item">Innovate</a>
+                    <a href="blog.html" class="list-group-item">Blog</a>
+                    <a href="contact.html" class="list-group-item">Contact</a>
+                </div>
+                <div class="list-group grey-list text-center">
+                    <a href="#" class="list-group-item ">
+                        <h4 class="list-group-item-heading ">Design, Meet  Science</h4>
+                        <p class="list-group-item-text">There are many variations of passages of lorem Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour,</p>
+                    </a>
+                    <a href="#" class="list-group-item ">
+                        <h4 class="list-group-item-heading">Design, Meet  Science</h4>
+                        <p class="list-group-item-text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour,</p>
+
+                    </a>
+                    <a href="#" class="list-group-item ">
+                        <h4 class="list-group-item-heading">Design, Meet  Science</h4>
+                        <p class="list-group-item-text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour,</p>
+                    </a>
+                </div>
+
+            </div>
+
+
+        </div>
+        <!--End of row 2-->
+    </div>
+    <!--End of container-->
+    <!--Footer-->
+    <footer class="footer-basic-centered">
+
+      <p class="footer-company-motto">Webonise Labs</p>
+
+      <p class="footer-links">
+        <a href="index.html">Home</a>
+        |
+        <a href="about-us.html">About</a>
+        |
+        <a href="innovate.html">Innovate</a>
+        |
+        <a href="blog.html">Blog</a>
+        |
+        <a href="contact.html">Contact</a>
+      </p>
+
+      <p class="footer-company-name">Webonise &copy; 2016</p>
+
+    </footer>
+    <!--footer 2>
+    <div class="container-fluid  footer">
+        <div class="row">
+            <div class="col-md-2 col-md-offset-2">
+                <h4><a href="#">Product</a></h4>
+                <ul class="list-unstyled">
+                    <li><a href="#">Download</a>
+                    </li>
+                    <li><a href="#">Features</a>
+                    </li>
+                    <li><a href="#">Mobile</a>
+                    </li>
+                    <li><a href="#">Compare</a>
+                    </li>
+                    <li><a href="#">Plans & Pricing</a>
+                    </li>
+                    <li><a href="#">App Showcase</a>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <h4><a href="#">Company</a></h4>
+                <ul class="list-unstyled">
+                    <li><a href="#">About</a>
+                    </li>
+                    <li><a href="#">Contact</a>
+                    </li>
+                    <li><a href="#">Blog</a>
+                    </li>
+                    <li><a href="#">News</a>
+                    </li>
+                    <li><a href="#">Press Releases</a>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="col-md-3">
+
+                <h4><a href="#">Support</a></h4>
+                <ul class="list-unstyled">
+                    <li><a href="#">Help Center</a>
+                    </li>
+                    <li><a href="#">Getting Started</a>
+                    </li>
+                    <li><a href="#">Referral Program</a>
+                    </li>
+                    <li><a href="#">Shared Folder Plan FAQ</a>
+                    </li>
+                </ul>
+            </div>
+            <div class=" col-md-3  ">
+                <h4><a href="#">Connect with us</a></h4>
+                <ul class="list-unstyled ">
+                    <li class="facebook">
+                        <a href="#"><img src="images/facebook-f.png" alt="image" class="footericon" />Facebook</a>
+                    </li>
+                    <li class="twitter">
+                        <a href="#"><img src="images/twitter-f.png" alt="image" class="footericon" />Twitter</a>
+                    </li>
+                    <li class="youtube">
+                        <a href="#"><img src="images/youtube-f.png" alt="image" class="footericon" />YouTube</a>
+                    </li>
+                    <li class="linkedin">
+                        <a href="#"><img src="images/linkedin-f.jpg" alt="image" class="footericon" />LinkedIn</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        End of Footer row
+    </div>-->
+    <!--End of Footer Container-->
+
+    <div id="id01" class="modal">
+
+        <form class="modal-content animate form-horiozontal" action="action_page.php">
+            <div class="imgcontainer">
+                <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                <img src="images/img_avatar2.png" alt="Avatar" class="avatar">
+            </div>
+
+            <div class="container">
+                <input type="text" placeholder="Enter Username" name="uname" required>
+
+                <input type="password" placeholder="Enter Password" name="psw" required>
+
+                <button type="submit" class="loginbtn btn btn-info btn-lg">Login</button>
+                <input type="checkbox" checked="checked"> Remember me
+            </div>
+
+            <div class="container" style="background-color:#f1f1f1">
+                <button type="button" onclick="document.getElementById('id01').style.display='none'" class=" btn btn-danger cancelbtn">Cancel</button>
+                <span class="psw">Forgot <a href="#">password?</a></span>
+            </div>
+        </form>
+    </div>
+    <script>
+        // Get the modal
+        var modal = document.getElementById('id01');
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
+
+    <!--modal for register button-->
+    <div id="id02" class="modal">
+
+        <form class="modal-content animate" action="action_page.php">
+            <div class="imgcontainer">
+                <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+                <img src="images/img_avatar2.png" alt="Avatar" class="avatar">
+            </div>
+
+            <div class="container">
+                <input type="text" placeholder="Choose Username" name="uname" required>
+
+                <input type="text" placeholder="Enter Email-id" name="uname" required>
+
+                <input type="password" placeholder="Enter Your Contact Number" name="psw" required>
+
+                <input type="password" placeholder="Enter Password" name="psw" required>
+
+                <input type="password" placeholder="Confirm  Password" name="psw" required>
+
+                <button type="submit" class="btn btn-success registerbtn ">Register!</button>
+
+            </div>
+
+            <div class="container">
+                <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn btn btn-danger ">Cancel</button>
+
+            </div>
+        </form>
+    </div>
+    <!--End of footer-->
+
+    <div id="id03" class="modal3">
+
+      <!-- modal3 content -->
+      <div class="modal3-content">
+        <div class="modal3-header text-center">
+          <span class="close1"></span>
+          <h2 >Thank you for your questions! </h2>
+          <h4>We are eager to reconnect with you and will get back to you promptly!</h4>
+
+        </div>
+        <!--<div class="modal3-body">
+        </div>-->
+          </div>
+
+    </div>
+
+    <script>
+    // Get the modal3
+    var modal3 = document.getElementById('id03');
+
+    // Get the button that opens the modal3
+    var btn = document.getElementById("id03");
+
+    // Get the <span> element that close1s the modal3
+    var span = document.getElementsByClassName("close1")[0];
+
+    // When the user clicks the button,id03 open the modal3
+    btn.onclick = function() {
+        modal3.style.display = "block";
+    }
+
+    // When the user clicks on <span> (x), close1 the modal3
+    span.onclick = function() {
+        modal3.style.display = "none";
+    }
+
+    // When the user clicks anywhere outside of the modal3, close1 it
+    window.onclick = function(event) {
+        if (event.target == modal3) {
+            modal3.style.display = "none";
+        }
+    }
+    </script>
+</body>

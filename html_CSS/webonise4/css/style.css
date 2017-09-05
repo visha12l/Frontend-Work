@@ -1,0 +1,145 @@
+* {
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.site-content {
+  flex: 1;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+h4 {
+  font-weight: bolder;
+  color: #222222;
+}
+
+p {
+  color: #a5a5a5;
+  font-size: 1em;
+}
+
+input, button {
+  outline: none;
+  border: none;
+  background: none;
+}
+
+input {
+  font-size: 0.7em;
+  background: #fff;
+  border-radius: 6px;
+  border: 1px solid #c8c8c8;
+  width: 200px;
+}
+
+input, button {
+  padding: 8px 14px;
+}
+
+button {
+  background: #2ecc71;
+  border-radius: 0 6px 6px 0;
+  color: #fff;
+  margin-left: -10px;
+  font-size: 0.8em;
+}
+
+header {
+  border-top: 10px solid #2ecc71;
+  background-image: url("../images/header-background_02.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #fff;
+}
+header .banner {
+  padding-top: 6%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+header .banner p {
+  font-weight: bolder;
+  color: #fff;
+}
+header .icon-nav-wrapper {
+  margin-top: 8%;
+}
+header .icon-nav {
+  padding: 16px 12px 8px 12px;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 50%;
+  margin-right: 12px;
+  transition: .5s;
+  -webkit-transition: .5s;
+  -moz-transition: .5s;
+}
+header .icon-nav:hover {
+  background: #2ecc71;
+}
+header .hand {
+  margin-left: 20%;
+}
+header .hand img {
+  vertical-align: bottom;
+}
+
+.services {
+  padding: 60px 0;
+  background: #fff;/*background-color*/
+}
+.services .services-content {
+  display: flex;
+  justify-content: space-between;
+}
+.services .item {
+  width: 25.42%;
+  text-align: center;
+}
+.services .item img {
+  padding: 28px;
+  background: #2ecc71;
+  border-radius: 50%;
+  margin-bottom: 18px;
+}
+.services .item h4 {
+  margin-bottom: 10px;
+}
+
+
+footer {
+  background: #e3e3e3;
+  padding: 60px 0;
+}
+footer nav ul {
+  display: flex;
+  justify-content: center;
+}
+footer nav ul li {
+  color: #848484;
+  font-size: 0.8em;
+  margin-right: 4%;
+  list-style: none;
+}
+footer nav ul li a {
+  color: #848484;
+  transition: .5s;
+  -webkit-transition: .5s;
+  -moz-transition: .5s;
+}
+footer nav ul li a:hover {
+  text-decoration: none;
+
+  color: #2ecc71;
+}

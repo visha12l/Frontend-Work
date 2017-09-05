@@ -1,0 +1,415 @@
+.navbar {
+    margin-bottom: 0px;
+  /*  background-color: #d84e55;*//*redbus color*/
+ 			background-color: #333;
+    /*complete navbar background*/
+    z-index: 9999;
+      border-top:10px solid #873fb5;
+  /*  margin-top:20px;*/
+    	font-size: 13px !important;
+    	line-height: 1.42857143 !important;
+    	letter-spacing: 4px;
+    	border-radius: 0;
+    	padding: 0px 60px;
+			border-bottom:none;
+}
+.navbar li a {
+    color: white !important;
+    /*list items color*/
+}
+.navbar-nav li a:hover {
+    color:#873fb5 !important;
+}
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:focus,
+.navbar-default .navbar-nav>.open>a:hover {
+    background-color: #333;
+}
+/*Class to center the text in one container*/
+.vertical-align
+{
+position: relative;
+top:50%;
+transform: translateY(-50%);
+}
+
+
+
+
+/*the setup theme video 1*/
+/*general styles*/
+/* for text selection not that important*/
+::selection {
+	background: #873fb5;
+	color: #fff;
+}
+/*for mozilla selection*/
+::-moz-selection {
+	background: #873fb5;
+	color: #fff;
+}
+body
+{
+  font-family: 'lato';
+  color:#111;
+  position:relative;
+  overflow-x: hidden;
+  background-color: #eee;
+}
+strong
+{
+  font-weight: 900;
+
+}
+p
+{
+  line-height: 24px;
+  font-weight: 300;
+}
+/*anchors*/
+a,
+a:focus{
+	color: #873fb5;
+}
+
+a:hover{
+	color: #b239c3;
+	text-decoration: none;
+}
+section
+{
+  padding:50px 0;
+}
+/*hr lines*/
+
+hr
+{
+  width:85px;
+}
+hr.icon:after
+{
+  content:"\f123";
+  font-family: 'FontAwesome';
+  color: #873fb5;
+  font-size:1.5em;
+  background-color: #fff;
+  position:relative;
+  top:-.8em;
+  padding:0.3em;
+}
+/*section headings*/
+.section-heading{
+	color: #873fb5;
+}
+
+.section-heading h3{
+	font-weight: 100;
+	letter-spacing: 3px;
+}
+
+.section-heading hr{
+	margin-top: 30px;
+	margin-bottom: 40px;
+	border-color: #873fb5;
+}
+/*the setup theme video 1 end*/
+
+/*the setup theme video 2*/
+/***HEADER STYLING***/
+header.home
+{
+  background:url('../images/background.png')fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;/*fill total area*/
+   color:white;
+   height:600px;/*important property*/
+}
+.logo{
+	font-weight: 100;
+	font-size: 72px;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	display: inline-block;/*it makes to display the text as a block*/
+	padding: 0 20px 15px 20px;
+}
+.home h3
+{
+
+	font-weight: 300;
+	margin: 0;/*to remove extra space between logo and heading*/
+
+}
+.home .learn-more{
+	color: #fff;
+	position: absolute;/*for stackinh the arrows one after another*/
+	font-size: 30px;
+}
+
+.home .learn-more .fa{
+	position: absolute;
+}
+
+.home .learn-more .second-arrow{
+	top: 8px;/*push it 8px from top*/
+}
+
+.home .learn-more .third-arrow{
+	top: 16px;
+}
+/* vertical align function is also used which is at the top*/
+/*the setup theme end of video 2*/
+
+
+/*the setup theme video 3*/
+.about
+{
+  background:url('../images/aboutbg.png')fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;/*fill total area*/
+   color:white;
+   height:440px;
+}
+.about h3{
+	font-weight: 300;
+	letter-spacing:3px;
+}
+
+.about h4{
+	font-weight: 300;
+	padding: 0 20%;
+}
+
+
+/*the setup theme END video 3*/
+
+/*the setup theme video 4*/
+
+.services .service-item
+{
+  margin-bottom:40px;
+}
+
+.service-item i{
+	font-size: 48px;
+	color: #c1c1c1;
+	float: left;/*very much important*/
+	border-right: 1px solid #873fb5;
+	padding-right: 20px;
+}
+
+.service-title
+{
+
+  margin-top:-20px;
+  margin-left:-40px;
+  display: inline-block;
+}
+.service-title h3
+{
+  color:#111;
+  font-weight: 900;
+}
+
+.service-title h4
+{
+  color:#873fb5;
+  font-weight: 300;
+  margin-top: -5px;
+}
+.service-item p
+{
+  font-size:15px;
+}
+/*the setup theme end of video 4*/
+/*the setup theme  video 5*/
+.stat{
+	color: #fff;
+	height: 230px;
+}
+
+.stat i{
+	font-size: 48px;
+}
+
+.stat h4{
+	font-weight: lighter;
+  font-size: 20px;
+}
+
+.codes{
+	background: url(../images/stats1.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.projects{
+	background: url(../images/stats2.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.clients{
+	background: url(../images/stats3.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.feedback{
+	background: url(../images/stats4.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+/*the setup theme end of video 5*/
+
+/*the setup theme end of video 6*/
+
+/**portfolio section**/
+
+.portfolio-box :hover
+{
+opacity:0.5;
+background-color: #873fb5 ;
+}
+.portfolio-box
+{
+  padding: 0;
+}
+/*the setup theme end of video 6*/
+
+/*the setup theme video 7*/
+.skills
+{
+  background: url(../images/skillsbg.png)fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-background-size: cover;
+	background-size: cover;
+  color:white;
+}
+.skills h1{
+	font-size: 48px;
+
+}
+
+.skills h3{
+	font-weight: 300;
+  margin-top:0px;
+}
+.skills p
+{
+  margin: 40px 0;
+  font-size:15px;
+}
+.skills .button
+{
+  border-radius: 2px;
+  font-size:16px;
+  color:white;
+  border-bottom: 3px solid white;
+  padding-bottom:10px;
+  text-transform: uppercase;
+}
+.skills .button-two
+{
+  margin-left: 20px;
+}
+.skills .button:hover
+{
+  color:#873fb5;
+    border-bottom: 3px solid #873fb5;
+}
+.progress
+{
+  border-radius: 5px;
+  height:30px;
+}
+
+.progress-bar {
+  background: linear-gradient(to right,  rgba(37,141,200,1) 0%,rgba(120,58,147,1) 0%,rgba(150,66,90,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#258dc8', endColorstr='#96425a',GradientType=1 ); /* IE6-9 */
+}
+
+/*the setup theme end of video 7*/
+
+/*the setup theme end of video 8*/
+.contact-column
+{
+height:400px;
+}
+ .form-control1
+{
+  padding:29px 12px;
+	font-size: 20px;
+  box-shadow: inset 0 1px 1px #843d7b;
+}
+.send-button,.send-button:hover
+{
+  background-color: #873fb5;
+  border-color: #873fb5;
+  color:white;
+}
+.mapdiv {
+
+    background-color: white;
+}
+.mapimage
+{
+width:585px;
+  height: 330px;
+
+}
+/*the setup theme end of video 8*/
+
+
+
+
+
+.footer{
+	background: url(../images/footerbg.png) fixed;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	-webkit-background-size: cover;
+	background-size: cover;
+	color: #fff;
+  height:200px;
+	}
+
+.footer .logo
+{
+  font-size:47px;
+  margin-top:40px;
+
+
+}
+.footer ul li
+{
+  display: inline;
+}
+.footer i
+{
+  font-size: 30px;
+  color:white;
+  padding:7px;
+	margin-top: 5px;
+}
+ .footer .copyright
+{
+  width:100%;
+  position: fixed;
+font-size: 15px;
+  bottom: 0;
+  left: 0;
+
+  background-color:rgba(0,0,0,.5);
+}
+textarea {resize: none;}

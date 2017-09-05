@@ -1,0 +1,54 @@
+body
+{
+  color:#747704;
+  font-weight: 300;
+
+}
+.text-thin
+{
+  font-weight: 100;
+}
+.text-muted
+{
+  color: #BCBBBB;
+}
+.container-fluid
+{
+  margin-bottom:20px;
+  padding: 40px;
+  background-color: #e6e5de;
+}
+.title-super
+{
+font-size: 60px;
+}
+.title-logo
+{
+margin-top: 20px;
+width:100px;
+height: 100px;
+}
+.line
+{
+  background-color:#9d9d9d;/* color  will not work*/
+  height:1px;
+  border: none;
+}
+
+.image1
+{
+  width:100%;
+  height: 350px;
+}
+.image2
+{
+  width:555px;
+  height: 300px;
+}
+.modal-header
+{
+    background-color: #eee;
+    height: 200px;
+line-height: 3;
+padding-top: 50px;
+}

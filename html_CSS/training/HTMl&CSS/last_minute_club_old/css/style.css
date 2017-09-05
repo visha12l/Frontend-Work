@@ -1,0 +1,161 @@
+/* common Styling*/
+
+body {
+    font-family: Arial;
+}
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+.home,
+.banner,
+footer {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+/* header styling*/
+
+header .logo {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+header ul {
+    margin-top: 60px;
+    margin-bottom: 36px;
+    float: right;
+}
+header ul li {
+    padding-left: 32px;
+    float: left;
+}
+header ul li a {
+    font-size: 18px;
+    line-height: 20px;
+    color: #333366;
+}
+header .active {
+    color: #00cccc;
+}
+/* Home styling*/
+
+.home {
+    background-image: url('../images/bg1.png');
+}
+.home-container {
+    height: 700px;
+    position: relative;
+}
+.form {
+    float: left;
+    position: absolute;
+    top: 20%;
+    background-color: white;
+    padding: 90px 87px 13px 83px;
+}
+.home-heading {
+    float: right;
+}
+.home h2 {
+    color: #333366;
+    font-size: 36px;
+    padding-top: 271px;
+}
+.home label {
+    font-size: 14px;
+    color: #666666;
+    padding: 10px;
+}
+.home input {
+    border-radius: 4px;
+    height: 50px;
+}
+.destination {
+    width: 503px;
+    padding: 5px;
+}
+.checkin {
+    width: 167px;
+}
+.box1,
+.box2,
+.box3 {
+    padding: 5px;
+}
+.home button {
+    text-align: center;
+    color: #fff;
+    width: 142px;
+    font-size: 16px;
+    background-color: #EF5A29;
+    padding: 18px 54px;
+    font-weight: bold;
+    position: absolute;
+    left: 40%;
+    bottom: 5%;
+}
+/* banner styling*/
+
+.banner {
+    background-image: url('../images/bg2.png');
+    color: #333366;
+}
+.banner h2 {
+    padding-top: 13px;
+    text-align: center;
+    font-size: 36px;
+}
+.bannerdiv {
+    padding: 40px;
+}
+.banner .heading {
+    font-size: 18px;
+    text-align: center;
+}
+.banner .lipsum {
+    font-size: 16px;
+    text-align: center;
+}
+.banner .list {
+    display: flex;
+}
+.bannerdiv img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.banner-container .item {
+    flex-grow: 1;
+}
+/*footer styling*/
+
+footer {
+    background-image: url('../images/bg3.png');
+}
+footer ul {
+    padding-top: 44px;
+}
+footer ul li a {
+    font-size: 16px;
+    line-height: 30px;
+    color: #fff;
+}
+footer p {
+    font-size: 12px;
+    line-height: 24px;
+    color: #fff;
+    padding-bottom: 20px;
+    padding-left: 40px;
+}
+footer .list {
+    display: flex;
+}
+footer .item {
+    flex-grow: .1;
+}

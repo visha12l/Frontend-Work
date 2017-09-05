@@ -1,0 +1,246 @@
+body {
+    background: #eee;
+}
+.progress-bar {
+    -webkit-transition: none !important;
+    transition: none !important;
+
+    background-color:#219e24;
+}
+.pad-top-30 {
+    padding-top: 30px;
+}
+/*``
+li.login a
+{
+  background:#b72727;
+  margin-bottom:-10px;
+  color:#fff;
+  padding-right:20px;
+  padding-left:20px;
+  margin-top:9px;
+
+}
+li.login a:hover
+{
+  background:#b72727;
+
+}
+li.register a
+  {
+    background:#2f98cc;
+    margin-bottom:-10px;
+    color:#fff;
+      margin-top:9px;
+      }
+      li.register a:hover
+      {
+        background:#ccc;
+      }
+*/
+
+.no-padding {
+    padding: 0px !important;
+}
+.jumbotron {
+    margin-top: 76px;
+    height: 350px;
+    padding: 0px;
+    background-image: url('../images/header.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 0px;
+}
+.jumbotron-content {
+    background: black;
+    color: #ffffff;
+    background-image: url('../images/header-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+    /*  transition: background 2s, transform 2s;
+*/
+
+    overflow: hidden;
+}
+.jumbotron-content:hover {
+    /*transform: rotate(360deg);
+*/
+}
+.jumbotron-content h1 {
+    padding-top: 60px;
+    font-size: 34px;
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 25px;
+}
+.maincontainer {
+    background-color: #eee;
+}
+.bluebox,
+.redbox,
+.greenbox {
+    height: 230px;
+    color: white;
+    background: #2e98cc;
+    padding: 0 10px;
+    overflow: hidden;
+    /*new*/
+
+    font-size: 16px;
+    /*transition: background 2s, transform 2s;
+*/
+}
+.bluebox:hover,
+.redbox:hover,
+.greenbox:hover {
+    /*transform: rotate(360deg);
+*/
+}
+.mainbox a,
+
+{
+    text-decoration: none;
+}
+.readmore {
+    position: absolute;
+    bottom: 15px;
+    left: 30px;
+    color: #fff;
+    background: #000000;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 5px;
+}
+.readmore:hover {
+    background: #337ab7;
+    color: white;
+}
+.panel-default>.panel-heading {
+    background: #2e98cc;
+    color: white;
+}
+.list-group {
+    margin-bottom: 80px;
+}
+.grey-list {
+    height: 260px;
+}
+a.list-group-item.active,
+a.list-group-item.active:focus,
+a.list-group-item.active:hover {
+    background: #dc5e5c;
+    border: #dc5e5c;
+}
+.grey-list a.list-group-item.active,
+.grey-list a.list-group-item.active:focus,
+.grey-list a.list-group-item.active:hover {
+    background: #f4f4f4;
+    border: #cccccc;
+    color: #666666;
+}
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.well
+/*contact form*/
+
+{
+    background: #2e98cc;
+}
+.list-group-item-heading {
+    background: #dc5e5c;
+    font-size: 19px;
+    height: 30px;
+    padding: 5px;
+}
+
+* {
+    margin: 0;
+    padding: 0
+}
+
+.modal3 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    -webkit-animation-name: fadeIn; /* Fade in the background */
+    -webkit-animation-duration: 0.4s;
+    animation-name: fadeIn;
+    animation-duration: 1s
+}
+
+/* modal3 Content */
+.modal3-content {
+    position: fixed;
+    bottom:0 ;
+
+    background-color: #fefefe;
+    width: 100%;
+    -webkit-animation-name: slideIn;
+    -webkit-animation-duration: 0.4s;
+    animation-name: slideIn;
+    animation-duration: 0.4s
+}
+
+/* The close1 Button
+.close1 {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close1:hover,
+.close1:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+*/
+.modal3-header {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+}
+/*
+.modal3-body {padding: 2px 16px;}
+
+.modal3-footer {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+}*/
+
+/* Add Animation */
+@-webkit-keyframes slideIn {
+    from {bottom: -300px; opacity: 0}
+    to {bottom: 0; opacity: 1}
+}
+
+@keyframes slideIn {
+    from {bottom: -300px; opacity: 0}
+    to {bottom: 0; opacity: 1}
+}
+
+@-webkit-keyframes fadeIn {
+    from {opacity: 0}
+    to {opacity: 1}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0}
+    to {opacity: 1}
+}

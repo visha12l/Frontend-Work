@@ -1,0 +1,407 @@
+
+.navbar {
+    margin-bottom: 0px;
+    background-color: #d84e55;/*redbus color*/
+ background-color: #333;
+    /*complete navbar background*/
+    z-index: 9999;
+      border-top:10px solid #219e24;
+  /*  margin-top:20px;*/
+    font-size: 13px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    padding: 0px 60px;
+border-bottom-color:#333;
+}
+.navbar-brand>img {
+    display: block;
+    width: 100%;
+    margin-top: -10px;
+}
+.navbar li a {
+    color: white !important;
+    /*list items color*/
+}
+.navbar-nav li a:hover {
+    /*color: #fed136 !important;
+*/
+
+    color:#1fcdff !important;
+}
+
+.dropdown-menu,
+.dropdown-menu>li>a:hover {
+    background-color: #333;
+}
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:focus,
+.navbar-default .navbar-nav>.open>a:hover {
+    background-color: #333;
+}
+/*  styling for modal*/
+/* Full-width input fields */
+
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.loginbtn {
+    width: 100%;
+    text-align: center;
+}
+/* Set a style for all buttons */
+/* Extra styles for the cancel button */
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+}
+.registerbtn {
+    width: 100%;
+    text-align: center;
+    padding: 10px 18px;
+}
+.registerbtn:hover {
+    border-color: #4cae4c;
+    background: #4cae4c;
+}
+/* Center the image and position the close button */
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+img.avatar {
+    width: 20%;
+    border-radius: 50%;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+/* The Modal (background) */
+
+.modal {
+    display: none;
+    /* Hidden by default */
+
+    position: fixed;
+    /* Stay in place */
+
+    z-index: 1;
+    /* Sit on top */
+
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+
+    height: 100%;
+    /* Full height */
+
+    overflow: auto;
+    /* Enable scroll if needed */
+
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+
+    padding-top: 60px;
+}
+/* Modal Content/Box */
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto;
+    /* 5% from the top, 15% from the bottom and centered */
+
+    border: 1px solid #888;
+    width: 80%;
+    /* Could be more or less, depending on screen size */
+}
+/* The Close Button (x) */
+
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+/* Add Zoom Animation */
+
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+@-webkit-keyframes animatezoom {
+    from {
+        -webkit-transform: scale(0)
+    }
+    to {
+        -webkit-transform: scale(1)
+    }
+}
+@keyframes animatezoom {
+    from {
+        transform: scale(0)
+    }
+    to {
+        transform: scale(1)
+    }
+}
+/* Change styles for span and cancel button on extra small screens */
+
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+    .cancelbtn {
+        width: 100%;
+    }
+}
+/*footer styling*/
+.footer-basic-centered{
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: center;
+	font: normal 18px sans-serif;
+
+	padding: 45px;
+	margin-top: -15px;
+}
+
+.footer-basic-centered .footer-company-motto{
+	color:  #8d9093;
+	font-size: 24px;
+	margin: 0;
+}
+
+.footer-basic-centered .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	margin: 0;
+}
+
+.footer-basic-centered .footer-links{
+	list-style: none;
+	/*font-weight: bold*/
+	color:  #ffffff;
+	padding: 35px 0 23px;
+	margin: 0;
+}
+
+.footer-basic-centered .footer-links a{
+	display:inline-block;
+	text-decoration: none;
+	color: inherit;
+}
+/*footer styling end*/
+#myProgress {
+  position: relative;
+  width: 100%;
+  height: 30px;
+  background-color: #ddd;
+}
+
+#myBar {
+  position: absolute;
+  width: 10%;
+  height: 100%;
+  background-color: #4CAF50;
+}
+
+#label {
+  text-align: center;
+  line-height: 30px;
+  color: white;
+}
+
+/*   media queries */
+
+@media (max-width: 600px) {
+
+	.footer-basic-centered{
+		padding: 35px;
+	}
+
+	.footer-basic-centered .footer-company-motto{
+		font-size: 18px;
+	}
+
+	.footer-basic-centered .footer-company-name{
+		font-size: 12px;
+	}
+
+	.footer-basic-centered .footer-links{
+		font-size: 14px;
+		padding: 25px 0 20px;
+	}
+
+	.footer-basic-centered .footer-links a{
+		line-height: 1.8;
+	}
+}
+/*  styling for modal*/
+/* Full-width input fields */
+
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.loginbtn {
+    width: 100%;
+    text-align: center;
+}
+/* Set a style for all buttons */
+/* Extra styles for the cancel button */
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+}
+.registerbtn {
+    width: 100%;
+    text-align: center;
+    padding: 10px 18px;
+}
+.registerbtn:hover {
+    border-color: #4cae4c;
+    background: #4cae4c;
+}
+/* Center the image and position the close button */
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+img.avatar {
+    width: 20%;
+    border-radius: 50%;
+}
+.container {
+    padding: 16px;
+}
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+/* The Modal (background) */
+
+.modal {
+    display: none;
+    /* Hidden by default */
+
+    position: fixed;
+    /* Stay in place */
+
+    z-index: 1;
+    /* Sit on top */
+
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+
+    height: 100%;
+    /* Full height */
+
+    overflow: auto;
+    /* Enable scroll if needed */
+
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+
+    padding-top: 60px;
+}
+/* Modal Content/Box */
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto;
+    /* 5% from the top, 15% from the bottom and centered */
+
+    border: 1px solid #888;
+    width: 80%;
+    /* Could be more or less, depending on screen size */
+}
+/* The Close Button (x) */
+
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+/* Add Zoom Animation */
+
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+@-webkit-keyframes animatezoom {
+    from {
+        -webkit-transform: scale(0)
+    }
+    to {
+        -webkit-transform: scale(1)
+    }
+}
+@keyframes animatezoom {
+    from {
+        transform: scale(0)
+    }
+    to {
+        transform: scale(1)
+    }
+}
+/* Change styles for span and cancel button on extra small screens */
+
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+    .cancelbtn {
+        width: 100%;
+    }
+}
+* {
+    margin: 0;
+    padding: 0
+}

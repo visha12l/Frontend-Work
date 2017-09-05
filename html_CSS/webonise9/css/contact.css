@@ -1,0 +1,190 @@
+textarea {resize: none;}
+.btn-warning,
+.btn:hover {
+    background: #337ab7;
+    border-color: #337ab7;
+}
+.contact
+{
+  margin-top:42px;
+}
+.contactcontainer {
+    height: 440px;
+    }
+.toprow .textdivleft,
+.toprow .textdivright {
+    padding: 60px 40px;
+}
+.textdivleft,.textdivright {
+    height: 440px;
+    background: #eee;
+}
+.mapdiv {
+    height: 300px;
+
+    background-color: white;
+}
+.glyphicon {
+    color: #5cb85c;
+}
+.textdivright p {
+    font-size: 16px;
+}
+.btnfb,  .btnfb:hover
+{
+  color:white;
+
+  border-color: #3B5998;
+  background-color: #3B5998;
+}
+.btn-group .btn:hover
+{
+  opacity:0.7;
+}
+.btngoogle ,  .btngoogle:hover
+{
+  color:white;
+  border-color:#C63D2D ;
+  background-color:#C63D2D ;
+}
+.btntwitter ,.btntwitter:hover
+{
+  color:white;
+
+  border-color: #33CCFF;
+  background-color: #33CCFF;
+}
+.btnlinkedin ,  .btnlinkedin:hover
+{
+  color:white;
+  border-color: #4875B4;
+  background-color: #4875B4;
+}
+  .btnpinterest:hover
+{
+  color:white;
+border-color: #d9534f;
+  background-color: #d9534f;
+}
+
+.btngithub,.btngithub:hover
+{
+  border-color:#5cb85c;
+  background-color:#5cb85c;
+  color:white;
+}
+.btn-group,
+{
+  color:white;
+}
+/*   media queries */
+
+@media (max-width: 600px) {
+
+	.footer-basic-centered{
+		padding: 35px;
+	}
+
+	.footer-basic-centered .footer-company-motto{
+		font-size: 18px;
+	}
+
+	.footer-basic-centered .footer-company-name{
+		font-size: 12px;
+	}
+
+	.footer-basic-centered .footer-links{
+		font-size: 14px;
+		padding: 25px 0 20px;
+	}
+
+	.footer-basic-centered .footer-links a{
+		line-height: 1.8;
+	}
+}
+
+* {
+    margin: 0;
+    padding: 0
+}
+
+.modal3 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    -webkit-animation-name: fadeIn; /* Fade in the background */
+    -webkit-animation-duration: 0.4s;
+    animation-name: fadeIn;
+    animation-duration: 1s
+}
+
+/* modal3 Content */
+.modal3-content {
+    position: fixed;
+    bottom:0 ;
+
+    background-color: #fefefe;
+    width: 100%;
+    -webkit-animation-name: slideIn;
+    -webkit-animation-duration: 0.4s;
+    animation-name: slideIn;
+    animation-duration: 0.4s
+}
+
+/* The close1 Button
+.close1 {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close1:hover,
+.close1:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+*/
+.modal3-header {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+}
+/*
+.modal3-body {padding: 2px 16px;}
+
+.modal3-footer {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+}*/
+
+/* Add Animation */
+@-webkit-keyframes slideIn {
+    from {bottom: -300px; opacity: 0}
+    to {bottom: 0; opacity: 1}
+}
+
+@keyframes slideIn {
+    from {bottom: -300px; opacity: 0}
+    to {bottom: 0; opacity: 1}
+}
+
+@-webkit-keyframes fadeIn {
+    from {opacity: 0}
+    to {opacity: 1}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0}
+    to {opacity: 1}
+}

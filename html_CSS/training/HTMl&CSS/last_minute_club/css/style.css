@@ -1,0 +1,172 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+body {
+    font-family: Arial;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style-type: none;
+}
+.clear {
+    clear: both;
+}
+/* container styling*/
+
+header .container {
+    width: 1170px;
+    margin: 0 auto;
+    padding-top: 24px;
+    padding-bottom: 23px;
+    background-color: #fff;
+}
+header {
+    border-bottom: 3px solid #ececec;
+}
+.logo {
+    float: left;
+}
+header .container ul {
+    margin-top: 34px;
+    float: right;
+    padding: 0;
+}
+header .container ul li {
+    margin-left: 30px;
+    float: left;
+}
+header .container ul li a {
+    font-size: 18px;
+    line-height: 20px;
+    color: #333366;
+}
+header .container ul li a:hover {
+    color: #00cccc;
+}
+header .container .active {
+    color: #00cccc;
+}
+/* wrapper styling*/
+
+.background-image {
+    width: 100%;
+    position: absolute;
+}
+.wrapper .container {
+    width: 1170px;
+    margin: 0 auto;
+    position: relative;
+}
+.content-wrapper {
+    position: absolute;
+    top: 98px;
+}
+.form-box {
+    background-color: #fff;
+    float: left;
+    margin-right: 50px;
+    padding: 40px 87px 15px 82px;
+}
+.form-box label {
+    display: block;
+    font-size: 14px;
+    line-height: 16px;
+    color: #666666;
+    margin-bottom: 7px;
+}
+.form-box input {
+    border-radius: 4px;
+    height: 50px;
+    padding-left: 10px;
+    border: 1px solid #CCC;
+    width: 100%;
+    box-sizing: border-box;
+}
+.box-wrapper {
+    margin-top: 20px;
+}
+.checkin-box,
+.checkout-box,
+.accomodation-box {
+    float: left;
+}
+.checkin-box,
+.checkout-box {
+    margin-right: 13px;
+}
+.form-box button {
+    margin: 0 auto;
+    display: block;
+    margin-top: 20px;
+    color: #fff;
+    width: 140px;
+    height: 47px;
+    font-size: 16px;
+    background-color: #EF5A29;
+    font-weight: bold;
+    border: none;
+}
+.location-box {
+    width: 504px;
+}
+.checkin-box {
+    width: 150px;
+}
+.checkout-box {
+    width: 140px;
+}
+.accomodation-box {
+    width: 190px;
+}
+.homeheading {
+    width: 432px;
+    float: right;
+    padding-top: 74px;
+}
+.homeheading h1 {
+    line-height: 38px;
+    color: #333366;
+    font-size: 36px;
+}
